@@ -22,7 +22,7 @@ function App() {
       <FAQ />
       <ContactSection/>
       <Footer />
-      {/* <SocialShareBar/> */}
+      <SocialShareBar/>
     </div>
   );
 }

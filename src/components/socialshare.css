@@ -24,3 +24,9 @@
   .sticky-bar button:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 600px) {
+    .sticky-bar {
+      top: 80%;
+    }
+  }
