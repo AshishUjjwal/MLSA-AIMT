@@ -44,7 +44,8 @@
     font-weight: bold;
     font-size: 35px;
     color: rgb(0, 0, 0);
-    background: none;
+    background: rgb(241, 236, 185);
+    border-radius: 8px; 
     
   }
   .Title:hover{
