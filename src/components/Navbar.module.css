@@ -1,0 +1,105 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15%;
+  background-color: #f1f0ea;
+  height: 20vh;
+}
+.navslogo1{
+  width: 100%;
+  max-width: 120px;
+  height: auto; 
+  margin-left: 20px;
+}
+.navslogo2{
+  width: 100%;
+  max-width: 230px;
+  height: auto; 
+}
+.hov:hover {
+  transform: scale(1.08);
+  font-weight: 600;
+  color: #0058fc; 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 10px;
+}
+
+.navLinks li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar{
+    padding: 15px 15px;
+  }
+  .navslogo1{
+    width: 100%;
+    max-width: 35%;
+    height: auto; 
+    margin-left: 2px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    position: absolute;
+    top: 21%;
+    left: 0%;
+    right: 0%;
+    background-color: #e6e0e0;
+    padding: 10px;
+    margin: 2%;
+    color: rgb(23, 23, 50);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .navLinks {
+    display: flex;
+    list-style: none;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }  
+
+  .navLinks.active {
+    max-height: 450px;
+    opacity: 1;
+    padding: 30px;
+  }
+
+  .navLinks li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .hov:hover {
+    transform: scale(1.08);
+    font-weight: 700;
+    color: #0058fc; 
+  }
+}

@@ -1,0 +1,26 @@
+.sticky-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; /* Always visible */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sticky-bar button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .sticky-bar button:hover {
+    transform: scale(1.1);
+  }
