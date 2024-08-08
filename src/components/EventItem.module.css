@@ -16,10 +16,12 @@
 }
 .register{
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 5px;
+  /* margin-top: 5px; */
+  margin-left: 5px;
+  border: #fcfcfc;
   cursor: pointer;
+  padding: 2px 5px;
 }
 
 .eventItem:hover{
@@ -33,11 +35,6 @@
   margin-right: auto;
 }
 
-/* .right {
-  left: 52%;
-  margin-right: auto;
-} */
-
 .eventIcon {
   width: 100px;
   height: 100px;
@@ -48,6 +45,8 @@
 }
 
 .eventDate {
+  display: flex;
+  align-items: center;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -57,12 +56,14 @@
   color: white;
   border-radius: 5px;
   padding: 2px 5px;
+  margin-left: 5px;
 }
 .eventStatus1 {
-  background: green;
-  color: white;
+  background: rgb(78, 243, 78);
+  color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 2px 5px;
+  margin-left: 5px;
 }
 
 .eventTitle {

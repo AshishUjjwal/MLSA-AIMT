@@ -89,7 +89,7 @@ const EventDashboard = () => {
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <EventItem
                     event={event}
-                    position={index % 2 === 0 ? "left" : "right"}
+                    position={index % 2 === 0 ? "left" : "left"}
                   />
                 </TimelineContent>
               </TimelineItem>
