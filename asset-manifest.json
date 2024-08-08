@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MLSA-AIMT/static/css/main.94dff358.css",
-    "main.js": "/MLSA-AIMT/static/js/main.542a089f.js",
-    "static/js/453.139a6dba.chunk.js": "/MLSA-AIMT/static/js/453.139a6dba.chunk.js",
+    "main.css": "/MLSA-AIMT/static/css/main.7dc477fd.css",
+    "main.js": "/MLSA-AIMT/static/js/main.66fd5f89.js",
+    "static/js/488.3c4cd793.chunk.js": "/MLSA-AIMT/static/js/488.3c4cd793.chunk.js",
     "static/media/Designer.png": "/MLSA-AIMT/static/media/Designer.90bee8380300a01d7174.png",
     "static/media/Ml-removebg-preview.png": "/MLSA-AIMT/static/media/Ml-removebg-preview.93e8fe0cf20ca82f8858.png",
     "static/media/faqs-icon.png": "/MLSA-AIMT/static/media/faqs-icon.4a6a9f3e1fd3e053b3d8.png",
     "index.html": "/MLSA-AIMT/index.html",
-    "main.94dff358.css.map": "/MLSA-AIMT/static/css/main.94dff358.css.map",
-    "main.542a089f.js.map": "/MLSA-AIMT/static/js/main.542a089f.js.map",
-    "453.139a6dba.chunk.js.map": "/MLSA-AIMT/static/js/453.139a6dba.chunk.js.map"
+    "main.7dc477fd.css.map": "/MLSA-AIMT/static/css/main.7dc477fd.css.map",
+    "main.66fd5f89.js.map": "/MLSA-AIMT/static/js/main.66fd5f89.js.map",
+    "488.3c4cd793.chunk.js.map": "/MLSA-AIMT/static/js/488.3c4cd793.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94dff358.css",
-    "static/js/main.542a089f.js"
+    "static/css/main.7dc477fd.css",
+    "static/js/main.66fd5f89.js"
   ]
 }
