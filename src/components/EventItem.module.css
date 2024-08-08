@@ -1,7 +1,6 @@
 
 .eventItem {
   display: flex;
-  width: 48%;
   background: #1c1c1c;
   color: white;
   border: 1px solid #333;
@@ -20,8 +19,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 5px;
-  border-radius: 5px;
-  border-color: antiquewhite;
   cursor: pointer;
 }
 
@@ -36,10 +33,10 @@
   margin-right: auto;
 }
 
-.right {
+/* .right {
   left: 52%;
   margin-right: auto;
-}
+} */
 
 .eventIcon {
   width: 100px;
@@ -94,6 +91,10 @@
   .eventTitle {
     font-size: 18px;
     margin: 5px 0;
+  }
+  .eventIcon {
+    width: 70px;
+    height: 70px;
   }
 }
 
